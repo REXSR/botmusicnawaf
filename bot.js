@@ -7,7 +7,6 @@ const ytdl = require('ytdl-core');
 const Music = require('discord.js-musicbot-addon');
 const client = new Discord.Client();
 
-const client = new Client({ disableEveryone: true });
 
 const youtube = new YouTube(GOOGLE_API_KEY);
 
